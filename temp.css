@@ -1,0 +1,64 @@
+
+
+.btn-internships {
+    position: relative;
+    z-index: 99;
+
+    padding: 12px 37px 13px 50px;
+    border-radius: 3px;
+    background: var(--main-color);
+    color:var(--light-color);
+
+    font-size: 18px;
+    line-height: 2.667;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    overflow-y :hidden;
+}
+.btn-internships:hover::before {
+    width: 100%;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.btn-internships:before {
+    content: '';
+    width: 34px;
+    height: 100%;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    background: var(--second-color);
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+.btn-internships span.more {
+    position: relative;
+    z-index: 99;
+}
+.btn-internships span.icon {
+    position: absolute;
+    left: -41px;
+    top: -15px;
+}
+
+
+/*#endregion Internarship*/
