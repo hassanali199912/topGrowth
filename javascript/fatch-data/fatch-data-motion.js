@@ -1,5 +1,5 @@
 window.onload= function () {
-fetch('json-data/web-projects.json')
+fetch('json-data/motion-projects.json')
 .then(res => res.json()).then(function(data){
   let output_div;
 for (let index = 0; index < data.length; index+=3) {

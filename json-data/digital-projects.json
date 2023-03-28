@@ -1,0 +1,63 @@
+[
+    {
+        "id":"01",
+        "img-dark":"images/portfolio/img-box-01.jpg",
+        "img-light":"images/portfolio/img-box-light-01.jpg",
+        "title":"Book Cover Design.",
+        "subtitle":"Digital Markting"
+    },
+    {
+        "id":"02",
+        "img-dark":"images/portfolio/img-box-02.jpg",
+        "img-light":"images/portfolio/img-box-light-02.jpg",
+        "title":"Book Cover Design2.",
+        "subtitle":"Digital Markting"
+    },
+    {
+        "id":"03",
+        "img-dark":"images/portfolio/img-box-03.jpg",
+        "img-light":"images/portfolio/img-box-light-03.jpg",
+        "title":"Book Cover Design3.",
+        "subtitle":"Digital Markting"
+    }
+    
+    ,
+    {
+        "id":"04",
+        "img-dark":"images/portfolio/img-box-04.jpg",
+        "img-light":"images/portfolio/img-box-light-04.jpg",
+        "title":"Book Cover Design4.",
+        "subtitle":"Digital Markting"
+    },
+    {
+        "id":"05",
+        "img-dark":"images/portfolio/img-box-05.jpg",
+        "img-light":"images/portfolio/img-box-light-05.jpg",
+        "title":"Book Cover Design5.",
+        "subtitle":"Digital Markting"
+    },
+    {
+        "id":"06",
+        "img-dark":"images/portfolio/img-box-06.jpg",
+        "img-light":"images/portfolio/img-box-light-06.jpg",
+        "title":"Book Cover Design6.",
+        "subtitle":"Digital Markting"
+    }
+    
+    ,
+    {
+        "id":"07",
+        "img-dark":"images/portfolio/img-box-03.jpg",
+        "img-light":"images/portfolio/img-box-light-03.jpg",
+        "title":"Book Cover Design7.",
+        "subtitle":"Digital Markting"
+    },
+    {
+        "id":"08",
+        "img-dark":"images/portfolio/img-box-04.jpg",
+        "img-light":"images/portfolio/img-box-light-04.jpg",
+        "title":"Book Cover Design8.",
+        "subtitle":"Digital Markting"
+    }
+    
+]
