@@ -14,9 +14,14 @@ fetch('json-data/web-projects.json')
         if (element.id == project_id) {
 
           
+            //Author Details Edit Information 
+            document.getElementById("author_name").innerHTML = element['single-page-data']['author_details']['name'];
+            document.getElementById("author_des").innerHTML = element['single-page-data']['author_details']['description'];
+            document.getElementById("author_img").setAttribute('src',element['single-page-data']['author_details']['img_url']);
+            document.getElementById("author_img").setAttribute('alt',element['single-page-data']['author_details']['name']);
+            // Project Details Edit Information 
             document.getElementById("title_span").innerHTML = element.title;
             document.getElementById("subtitle_span").innerHTML = element.subtitle;
-            
             document.getElementById("title").innerHTML = element.title;
             document.getElementById("subtitle").innerHTML = element.subtitle;
             document.getElementById("project_img_cover").setAttribute('src',element["single-page-data"].imgboxurl);

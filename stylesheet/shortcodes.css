@@ -226,7 +226,7 @@
     padding: 21px 45px 21px 50px;
     border-radius: 3px;
     background: var(--main-color);
-    color: #11161e;
+    color: var(--light-color);
 
     font-size: 18px;
     line-height: 2.667;
