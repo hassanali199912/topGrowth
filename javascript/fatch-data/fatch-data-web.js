@@ -8,7 +8,7 @@ for (let index = 0; index < data.length; index+=3) {
       if (j==data.length) {
         break
       }
-          output_div +=`<div class="themesflat-portfolio wow fadeInUp" data-wow-delay="${j*400}ms">
+          output_div +=`<div class="themesflat-portfolio wow fadeInUp" data-wow-delay="${j*100}ms">
           <div class="project-item">
               <div class="inner">
                   <div class="boxitem">
@@ -20,7 +20,7 @@ for (let index = 0; index < data.length; index+=3) {
                           <div class="content-box">
                               <h6 class="subtitle"> ${data[j]['subtitle']}</h6>
                               <h5 class="title">
-                                  <a href='works-details/web-projects/projects-details.html?Project_id=${data[j]['id']}'>${data[j]['title']}</a></h5>
+                                  <a href='works-details/projects-details.html?Project_id=${data[j]['id']}&Project_catrgory=${data[j]['category']}'>${data[j]['title']}</a></h5>
                           </div>
                       </div>
                   </div>

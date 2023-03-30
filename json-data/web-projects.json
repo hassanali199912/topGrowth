@@ -1,6 +1,7 @@
 [
     {
         "id": "01",
+        "category":"web_development",
         "img-dark": "images/portfolio/img-box-01.jpg",
         "img-light": "images/portfolio/img-box-light-01.jpg",
         "title": "Book Cover Design.",
@@ -29,6 +30,7 @@
     },
     {
         "id": "02",
+        "category":"web_development",
         "img-dark": "images/portfolio/img-box-02.jpg",
         "img-light": "images/portfolio/img-box-light-02.jpg",
         "title": "Book Cover Design2.",
@@ -36,7 +38,7 @@
         "single-page-data": {
             "imgboxurl": "images/portfolio/project-details.jpg",
             "pharagraphs": [
-                ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen vived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop",
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen vived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was pop",
                 "1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishin Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typeset-ting industry. Lorem Ipsum has been the industry's  text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen .<br>vived not only five centuries, but also the leap into electronic typesetting.<br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen ",
                 "Donec scelerisque dolor id nunc dictum, interdum gravida mauris rhoncus. Aliquam at ultrices nunc. In sem leo, fermentum at lorem in, porta finibus mauris. Aliquam consectetur, ex in gravida porttitor,",
                 "Donec scelerisque dolor id nunc dictum, interdum gravida mauris rhoncus. Aliquam at ultrices nunc. In sem leo, fermentum at lorem in, porta finibus mauris. Aliquam consectetur, ex in gravida porttitor,",
@@ -57,6 +59,7 @@
     },
     {
         "id": "03",
+        "category":"web_development",
         "img-dark": "images/portfolio/img-box-03.jpg",
         "img-light": "images/portfolio/img-box-light-03.jpg",
         "title": "Book Cover Design3.",
@@ -85,6 +88,7 @@
     },
     {
         "id": "04",
+        "category":"web_development",
         "img-dark": "images/portfolio/img-box-04.jpg",
         "img-light": "images/portfolio/img-box-light-04.jpg",
         "title": "Book Cover Design4.",
@@ -113,6 +117,7 @@
     },
     {
         "id": "05",
+        "category":"web_development",
         "img-dark": "images/portfolio/img-box-05.jpg",
         "img-light": "images/portfolio/img-box-light-05.jpg",
         "title": "Book Cover Design5.",
@@ -141,6 +146,7 @@
     },
     {
         "id": "06",
+        "category":"web_development",
         "img-dark": "images/portfolio/img-box-06.jpg",
         "img-light": "images/portfolio/img-box-light-06.jpg",
         "title": "Book Cover Design6.",
@@ -169,6 +175,7 @@
     },
     {
         "id": "07",
+        "category":"web_development",
         "img-dark": "images/portfolio/img-box-03.jpg",
         "img-light": "images/portfolio/img-box-light-03.jpg",
         "title": "Book Cover Design7.",
@@ -197,6 +204,7 @@
     },
     {
         "id": "08",
+        "category":"web_development",
         "img-dark": "images/portfolio/img-box-04.jpg",
         "img-light": "images/portfolio/img-box-light-04.jpg",
         "title": "Book Cover Design8.",
