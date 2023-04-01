@@ -1,0 +1,204 @@
+/* This is addithion Style by Hassan Ali To Override The Defult Styling */
+
+/*#region .main-header*/
+
+.header .main-header .main-header-contact .call {
+    background: none;
+    padding: 24px 20px 20px 20px !important;
+    display: flex;
+  }
+  
+  .header .main-header .main-header-contact .call:hover {
+    background: none !important;
+    transform:scale(1.1) ;
+  }
+  
+  .header .main-header .main-header-contact .call img {
+    top: 0% !important;
+    left: 0% !important;
+
+  }
+
+/*#endregion .main-header*/
+
+/*#region .tp-bullet*/
+
+.section-slider.style-2 .tp-bullet {
+    background: rgba(17, 22, 30, 0.102);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    
+  }
+  
+  .section-slider.style-2 .tp-bullet:hover {
+    background: var(--main-color);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .section-slider.style-2 .tp-bullet.selected {
+    background: var(--main-color);
+  }
+  
+  .section-slider.style-3 {
+    margin-top: -158px;
+  }
+  
+  .section-slider.style-3 .tp-mask-wrap {
+    padding-top: 130px;
+    margin-left: -31px;
+  }
+  
+  .tp-bullets.custom.horizontal.nav-pos-hor-center.nav-pos-ver-bottom.nav-dir-horizontal {
+    width: 100% !important;
+    height: fit-content !important;
+    transform: none !important;
+    left: 0 !important;
+    visibility: hidden;
+    visibility: inherit !important;
+    opacity: 1 !important;
+    position: absolute;
+    bottom:  10% !important; 
+    display: flex;
+    justify-content: center;
+    
+   
+  }
+  
+  .section-slider.style-2 .tp-bullets.custom.horizontal.nav-pos-hor-center.nav-pos-ver-bottom.nav-dir-horizontal {
+    left: 12.3% !important;
+    
+  }
+  
+  .tp-bullet {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.102);
+    cursor: pointer;
+    display: inline-block;
+    margin: 1rem;
+    margin-bottom: 20px;
+    -webkit-transition: all 1s ease-in-out !important;
+    -moz-transition: all 1s ease-in-out !important;
+    -ms-transition: all 1s ease-in-out !important;
+    -o-transition: all 1s ease-in-out !important;
+    transition: all 1s ease-in-out !important;
+   
+  }
+  
+  .tp-bullet.selected, .tp-bullet:hover {
+    width: 30px;
+    height: 20px;
+    background: var(--main-color);
+    -webkit-transition: all 1s ease-in-out !important;
+    -moz-transition: all 1s ease-in-out !important;
+    -ms-transition: all 1s ease-in-out !important;
+    -o-transition: all 1s ease-in-out !important;
+    transition: all 1s ease-in-out !important;
+  }
+  
+/*#endregion .tp-bullet*/
+
+/*#region .section-work*/
+
+.section-work.style-2 .list-box-work .box-work .box-item .title-box:before {
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  /*#endregion .section-work*/
+
+/*#region .section-counter*/
+  .section-counter .heading-top h3.title {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    padding-bottom: 0px !important;
+    color: #fff;
+  }
+  /*#endregion .tp-bullet*/
+
+  /*#region .section-about */
+  .page-title .main-page h2.title:before {
+    
+    width: 0px !important;
+    height: 0px !important;
+    background: none !important;
+    
+  }
+  /*#endregion .section-about */
+  
+  /*#region .section-about */
+
+  .section-about .intro-content h3.title::before {
+    width: 0px !important;
+    height: 0px !important;
+  }
+  
+  /*#endregion .section-about */
+
+  /*#region .section-portfolio*/
+  .section-portfolio .list-portfolio .themesflat-portfolio .boxitem .box-item-content .content-box:after {
+    content: none;
+    width: 0px !important;
+    height: 0px !important;
+    background: none !important;
+   
+  }
+  .boxitem .box-item-content .content-box h5.title:before {
+    content: none;
+    width: 0px !important;
+    height: 0px !important;
+    background: none;
+}
+.boxitem .box-item-content .content-box:after {
+  content: none !important;
+  width: 0px !important;
+  height: 0px !important;
+  background:none !important;
+  
+}
+
+  .section-portfolio .list-portfolio .themesflat-portfolio .boxitem .box-item-content .content-box:after {
+   
+    width: 0px !important;
+    height: 0px !important;
+    background: none !important;
+   
+  }
+  .section-portfolio .list-portfolio .themesflat-portfolio .boxitem .box-item-content .content-box h5.title:before {
+    
+    width: 0px !important;
+    height: 0px !important;
+
+  }
+  
+  /*#endregion .section-portfolio*/
+
+  /*#region Footer*/
+  .footer .section-main-footer .list-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer .section-main-footer .list-footer .widget-about {
+    flex-basis: 3 !important;
+  }
+  
+  .footer .section-main-footer .list-footer .widget-link {
+    flex-basis: 1 !important;
+  }
+  
+ 
+  
+  /*#endregion Footer*/
+  

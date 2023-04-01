@@ -1,14 +1,14 @@
 window.onload= function () {
 fetch('json-data/digital-projects.json')
 .then(res => res.json()).then(function(data){
-  let output_div;
+  let output_div="";
 for (let index = 0; index < data.length; index+=3) {
   output_div += ` <div class="list-portfolio my-3">`;
   for (let j = index ; j < index + 3; j++) {
       if (j==data.length) {
         break
       }
-          output_div +=`<div class="themesflat-portfolio wow fadeInUp" data-wow-delay="${j*400}ms">
+          output_div +=`<div class="themesflat-portfolio wow fadeInUp" data-wow-delay="${j*100}ms">
           <div class="project-item">
               <div class="inner">
                   <div class="boxitem">
@@ -18,8 +18,8 @@ for (let index = 0; index < data.length; index+=3) {
                       </div>
                       <div class="box-item-content">
                           <div class="content-box">
-                              <h6 class="subtitle"> ${data[j]['subtitle']}</h6>
-                              <h5 class="title">
+                          <h5 class="title"> ${data[j]['subtitle']}</h5>
+                          <h5 class="subtitle">
                               <a href='works-details/projects-details.html?Project_id=${data[j]['id']}&Project_catrgory=${data[j]['category']}'>${data[j]['title']}</a></h5>
                           </div>
                       </div>

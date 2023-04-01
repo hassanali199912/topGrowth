@@ -1828,6 +1828,9 @@ h6 a {
   line-height: 1.667em;
   letter-spacing: -0.2px;
 }
+.section-portfolio .list-portfolio .themesflat-portfolio .boxitem .box-item-content .content-box:hover h5.title {
+  color: var(--main-color) !important;
+}
 
 .section-portfolio .list-portfolio .themesflat-portfolio .boxitem .box-item-content .content-box h5.title a {
   position: relative;
