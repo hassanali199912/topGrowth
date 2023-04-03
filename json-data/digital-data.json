@@ -1,0 +1,45 @@
+[
+    {
+        "id": "01",
+        "category":"digital_marketing",
+        "imgurls": ["images/projetes/digital-marketing/Steam care/1.png","images/projetes/digital-marketing/Steam care/2.png","images/projetes/digital-marketing/Steam care/3.png","images/projetes/digital-marketing/Steam care/4.png","images/projetes/digital-marketing/Steam care/5.png","images/projetes/digital-marketing/Steam care/6.png","images/projetes/digital-marketing/Steam care/7.png","images/projetes/digital-marketing/Steam care/8.png","images/projetes/digital-marketing/Steam care/9.png","images/projetes/digital-marketing/Steam care/10.png","images/projetes/digital-marketing/Steam care/11.png","images/projetes/digital-marketing/Steam care/12.png","images/projetes/digital-marketing/Steam care/13.png","images/projetes/digital-marketing/Steam care/14.png"],
+        "title": "Medical Steam Care",
+        "subtitle": "Digital Marketing",
+        "description":"steam care is healthy care application offer medical service with over 10000 articls to increase awarenss for Diseases",
+        "author_details": {
+            "img_url": "images/widget/author-project.jpg",
+            "name": "Jone Doe",
+            "description": "“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis scelerisque, odio eu nun”"
+        }
+        
+    },
+    {
+        "id": "02",
+        "category":"digital_marketing",
+        "imgurls": ["images/projetes/digital-marketing/Lingua/1.png","images/projetes/digital-marketing/Lingua/2.png","images/projetes/digital-marketing/Lingua/3.png","images/projetes/digital-marketing/Lingua/4.png","images/projetes/digital-marketing/Lingua/5.png","images/projetes/digital-marketing/Lingua/6.png","images/projetes/digital-marketing/Lingua/7.png","images/projetes/digital-marketing/Lingua/8.png","images/projetes/digital-marketing/Lingua/9.png","images/projetes/digital-marketing/Lingua/10.png","images/projetes/digital-marketing/Lingua/11.png"],
+        "title": "Medical Lingua",
+        "subtitle": "Digital Marketing",
+        "description":"lingua is a medical translation agency help students to earn money from the medical translation and some oth services",
+        "author_details": {
+            "img_url": "images/widget/author-project.jpg",
+            "name": "Jone Doe 2",
+            "description": "“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis scelerisque, odio eu nun”"
+        }
+        
+    }
+    ,
+    {
+        "id": "03",
+        "category":"digital_marketing",
+        "imgurls": ["images/projetes/digital-marketing/Akla hania social media/1.png","images/projetes/digital-marketing/Akla hania social media/2.png","images/projetes/digital-marketing/Akla hania social media/3.png","images/projetes/digital-marketing/Akla hania social media/4.png","images/projetes/digital-marketing/Akla hania social media/5.png","images/projetes/digital-marketing/Akla hania social media/6.png","images/projetes/digital-marketing/Akla hania social media/7.png"],
+        "title": "Resturant Akla hania",
+        "subtitle": "Digital Marketing",
+        "description":"Akla Hani is homemade restaurant that offer meals made at housing",
+        "author_details": {
+            "img_url": "images/widget/author-project.jpg",
+            "name": "Jone Doe 3",
+            "description": "“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis scelerisque, odio eu nun”"
+        }
+        
+    }
+]

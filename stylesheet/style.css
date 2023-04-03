@@ -2,6 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("ionicons.css");
 
+/*#region Font Herders*/
+
+@font-face {
+  font-family: 'codec_pro';
+  src: url("fonts/Codec_Pro/CodecPro-ExtraBold.ttf");
+  font-weight: bold;
+}
+
+
+/*For Subheaders And Paragraphs */
+
+@font-face { 
+   font-family:'garet';
+   src:url('fonts/Codec_Pro/Garet\ Regular.ttf')
+}
+/*#endregion*/
+
+
 :root {
 --main-color : #0446F1;    /* var(--main-color); */
 --second-color : #3a70f8d5;  /* var(--second-color); */
@@ -133,7 +151,7 @@ button,
 input,
 select,
 textarea {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'codec_pro','Oswald', sans-serif;
   font-weight: 400;
   color: #11161e;
   font-size: 14px;
@@ -395,50 +413,59 @@ a:active {
 
 /* Typography
 -------------------------------------------------------------- */
-h1,
+/* Typography
+-------------------------------------------------------------- */
+h1 {
+    font-family: 'codec_pro','Oswald', sans-serif;
+    color: #111;
+    font-weight: 400;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif;
-  color: #11161e;
-  font-weight: 400;
-  line-height: 1.5;
-  text-rendering: optimizeLegibility;
+    font-family: 'garet','Oswald', sans-serif;
+    color: #111;
+    font-weight: 400;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: 102px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 128px;
+    font-size: 102px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 128px;
 }
 
 h2 {
-  font-size: 72px;
+    font-size: 72px;
 }
 
 h3 {
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 1.313em;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.313em;
 }
 
 h4 {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.2em;
-  letter-spacing: 10.8px;
-  color: var(--main-color);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2em;
+    letter-spacing: 10.8px;
+    color: var(--main-color);
 }
 
 h5 {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 h6 {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 h1 a,
@@ -447,9 +474,12 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: inherit;
+    color: inherit
 }
+p{
+    font-family: 'garet','Oswald', sans-serif;
 
+}
 
 
 /*#region header*/
@@ -1556,7 +1586,6 @@ h6 a {
 }
 
 .section-work.style-2 .list-box-work .form-portfolio .heading-form p {
-  font-family: 'Oswald', sans-serif;
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 11px;
@@ -2282,7 +2311,6 @@ h6 a {
 }
 
 .section-pricing .list-pricing .themesflat-pricing .pricing-item .thumb .sale-off p {
-  font-family: 'Oswald', sans-serif;
   font-size: 13px;
   font-weight: bold;
   line-height: 1.2em;
@@ -2524,7 +2552,6 @@ h6 a {
 }
 
 .section-team .list-team .box-item-team p.branch {
-  font-family: 'Oswald', sans-serif;
   font-size: 14px;
   line-height: 1em;
   color: #777777;
@@ -2803,7 +2830,6 @@ h6 a {
 }
 
 .section-project-details .main-project-details .project-content .form-review p {
-  font-family: 'Oswald', sans-serif;
   letter-spacing: -0.4px;
 }
 
@@ -3180,7 +3206,6 @@ h6 a {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
   padding-top: 12px;
   margin-left: 107px;
 }
@@ -3735,7 +3760,6 @@ h6 a {
 }
 
 .footer .bottom-footer .copyright p {
-  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   color: #fff;
 }

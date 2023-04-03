@@ -183,6 +183,103 @@
   
   /*#endregion .section-portfolio*/
 
+/*#region section-portfolio  Project Filter*/
+.filter-btn{
+  border-bottom:2px solid var(--dark-color)
+}
+.courseslinks{
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.courseslinks button{
+ 
+ padding: 1rem 2rem;
+}
+.active_btn{
+  background-color:var(--main-color) !important;
+  color: var(--light-color) !important;
+}
+
+.filterDiv {
+  display: none !important ;
+}
+
+/* The "show" class is added to the filtered elements */
+
+.show_card {
+  display: flex !important;
+}
+.card-title{
+  width: 100% !important;
+}
+.card-title span{
+  display: block;
+  width: 3rem !important;
+}
+
+  .section-portfolio .list-portfolio {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+  }
+  
+  .section-portfolio .list-portfolio .themesflat-portfolio {
+    margin-right: 0 !important;
+    width: 30rem !important;
+  }
+  
+  .section-portfolio .list-portfolio .themesflat-portfolio .boxitem:hover .imgbox img.light {
+    opacity: 1;
+  }
+  
+  .section-portfolio .list-portfolio .themesflat-portfolio .boxitem .box-item-content .content-box {
+    opacity: 0 !important;
+  }
+
+  .section-portfolio .list-portfolio .themesflat-portfolio:hover .boxitem .box-item-content .content-box {
+    opacity: 1 !important;
+  }
+    
+  /*#endregion section-portfolio*/
+
+  /*#region portfolio-details  */
+
+/* #carouselExampleIndicators .carousel-item {
+  height: 60vh !important;
+}
+#carouselExampleIndicators .carousel-inner {
+  height: 60vh !important;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item img{
+  height: 100% !important;
+  
+  width: auto !important;
+} */
+  .carousel-indicators {
+    position: static;
+    bottom: -15rem !important;
+    flex-wrap: nowrap !important;
+    margin: 0 !important;
+    width: 100%;
+}
+.carousel-indicators > button{
+    width: 20rem !important;
+    height: 10rem !important;
+
+}
+.carousel-indicators > button {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+  /*#endregion section-portfolio*/
+  
   /*#region Footer*/
   .footer .section-main-footer .list-footer {
     display: flex;
