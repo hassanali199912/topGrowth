@@ -217,7 +217,8 @@
 }
 .card-title span{
   display: block;
-  width: 3rem !important;
+  font-weight: bold;
+  padding: 2rem 0;
 }
 
   .section-portfolio .list-portfolio {
