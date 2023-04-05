@@ -4,10 +4,10 @@ console.log("hello form js");
 function load_projects_data(){
     fetch('json-data/digital-data.json').then(res => res.json()).then((data)=>{
         let output =""; 
-        output +=`<h4 class="card-title"><span>Digital Markting Projectes</span></h4>
+        output +=`<h4 class="card-title"><span>Graphic Design</span></h4> <div id="card-contaner-grid">
         `;
         data.forEach(element => {
-            output+=` <div class=" themesflat-portfolio wow fadeInUp pt-2 " data-wow-delay="100ms">
+            output+=`<div class=" themesflat-portfolio wow fadeInUp pt-2 " data-wow-delay="100ms">
             <div class="project-item">
                 <div class="inner">
                     <div class="boxitem">
@@ -27,7 +27,8 @@ function load_projects_data(){
             </div>
         </div>`;
         });
-        console.log(output);
+        output+="</div>"
+        
         document.getElementById('digital-market-section').innerHTML= output;
 
 

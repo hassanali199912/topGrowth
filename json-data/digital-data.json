@@ -26,10 +26,25 @@
             "description": "“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis scelerisque, odio eu nun”"
         }
         
+    },
+    
+    {
+        "id": "03",
+        "category":"digital_marketing",
+        "imgurls": ["images/projetes/digital-marketing/wessal/1.jpg","images/projetes/digital-marketing/wessal/2.jpg","images/projetes/digital-marketing/wessal/3.jpg","images/projetes/digital-marketing/wessal/4.jpg","images/projetes/digital-marketing/wessal/5.jpg","images/projetes/digital-marketing/wessal/6.jpg","images/projetes/digital-marketing/wessal/7.jpg","images/projetes/digital-marketing/wessal/8.jpg","images/projetes/digital-marketing/wessal/9.jpg","images/projetes/digital-marketing/wessal/10.jpg","images/projetes/digital-marketing/wessal/11.jpg","images/projetes/digital-marketing/wessal/12.jpg","images/projetes/digital-marketing/wessal/13.jpg"],
+        "title": "Wessal ",
+        "subtitle": "Digital Marketing",
+        "description":"steam care is healthy care application offer medical service with over 10000 articls to increase awarenss for Diseases",
+        "author_details": {
+            "img_url": "images/widget/author-project.jpg",
+            "name": "Jone Doe",
+            "description": "“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis scelerisque, odio eu nun”"
+        }
+        
     }
     ,
     {
-        "id": "03",
+        "id": "04",
         "category":"digital_marketing",
         "imgurls": ["images/projetes/digital-marketing/Akla hania social media/1.png","images/projetes/digital-marketing/Akla hania social media/2.png","images/projetes/digital-marketing/Akla hania social media/3.png","images/projetes/digital-marketing/Akla hania social media/4.png","images/projetes/digital-marketing/Akla hania social media/5.png","images/projetes/digital-marketing/Akla hania social media/6.png","images/projetes/digital-marketing/Akla hania social media/7.png"],
         "title": "Resturant Akla hania",
@@ -42,4 +57,5 @@
         }
         
     }
+ 
 ]

@@ -1997,3 +1997,13 @@
   -webkit-animation-name: overlay-slide-out-right;
           animation-name: overlay-slide-out-right;
 }
+
+@keyframes up-and-down{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+
+}

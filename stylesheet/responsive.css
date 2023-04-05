@@ -60,7 +60,7 @@
     }
 }
 @media only screen and (max-width: 991px) {
-    .main-header-contact {
+    .main-header-contact ,.contact-whatsapp{
         display: none;
     }
     /* work */

@@ -1,6 +1,16 @@
 /* This is addithion Style by Hassan Ali To Override The Defult Styling */
+.title{
+  letter-spacing: 0;
+}
+.sup-title{
+  letter-spacing: 0;
+}
+
 
 /*#region .main-header*/
+.header .main-header .main-nav{
+  top: 70px;
+}
 
 .header .main-header .main-header-contact .call {
     background: none;
@@ -18,6 +28,15 @@
     left: 0% !important;
 
   }
+.contact-whatsapp{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  left: 2rem;
+  bottom: 3rem; 
+  z-index: 9999;
+  animation: up-and-down 2s infinite alternate;
+}
 
 /*#endregion .main-header*/
 
@@ -77,25 +96,26 @@
   }
   
   .tp-bullet {
-    width: 20px;
-    height: 20px;
+    overflow: hidden;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.102);
     cursor: pointer;
     display: inline-block;
     margin: 1rem;
     margin-bottom: 20px;
-    -webkit-transition: all 1s ease-in-out !important;
-    -moz-transition: all 1s ease-in-out !important;
-    -ms-transition: all 1s ease-in-out !important;
-    -o-transition: all 1s ease-in-out !important;
-    transition: all 1s ease-in-out !important;
+    -webkit-transition: all .5s ease-in-out !important;
+    -moz-transition: all .5s ease-in-out !important;
+    -ms-transition: all .5s ease-in-out !important;
+    -o-transition: all .5s ease-in-out !important;
+    transition: all .5s ease-in-out !important;
    
   }
   
   .tp-bullet.selected, .tp-bullet:hover {
-    width: 30px;
-    height: 20px;
+    width: 20px;
+    height: 10px;
     background: var(--main-color);
     -webkit-transition: all 1s ease-in-out !important;
     -moz-transition: all 1s ease-in-out !important;
@@ -112,7 +132,11 @@
     width: 0 !important;
     height: 0 !important;
   }
-
+  .section-portfolio.style-2 .list-portfolio .themesflat-portfolio:nth-child(6) {
+    margin-right: 0;
+    margin-top: 0px !important;
+  }
+  
   /*#endregion .section-work*/
 
 /*#region .section-counter*/
@@ -126,7 +150,7 @@
   }
   /*#endregion .tp-bullet*/
 
-  /*#region .section-about */
+/*#region .section-about */
   .page-title .main-page h2.title:before {
     
     width: 0px !important;
@@ -136,7 +160,7 @@
   }
   /*#endregion .section-about */
   
-  /*#region .section-about */
+/*#region .section-about */
 
   .section-about .intro-content h3.title::before {
     width: 0px !important;
@@ -145,7 +169,7 @@
   
   /*#endregion .section-about */
 
-  /*#region .section-portfolio*/
+/*#region .section-portfolio*/
   .section-portfolio .list-portfolio .themesflat-portfolio .boxitem .box-item-content .content-box:after {
     content: none;
     width: 0px !important;
@@ -195,22 +219,31 @@
   flex-wrap: wrap;
 }
 .courseslinks button{
- 
+ font-size: 1.5rem;
  padding: 1rem 2rem;
+ transition: all .5s ease;
+}
+.courseslinks button:hover{
+  
+  color: var(--main-color);
+  transform: scale(1.1);
 }
 .active_btn{
+  border-radius: 10px;
   background-color:var(--main-color) !important;
   color: var(--light-color) !important;
 }
 
 .filterDiv {
   display: none !important ;
+ 
 }
 
 /* The "show" class is added to the filtered elements */
 
 .show_card {
   display: flex !important;
+  
 }
 .card-title{
   width: 100% !important;
@@ -220,17 +253,21 @@
   font-weight: bold;
   padding: 2rem 0;
 }
+.filterDiv .card-title span{
+  letter-spacing: 0;
+    font-family: 'codec_pro';
+    font-size: 3rem
+}
 
   .section-portfolio .list-portfolio {
     display: flex;
-    gap: 1rem;
+    gap:5rem 5% ;
     flex-wrap: wrap;
-
   }
   
   .section-portfolio .list-portfolio .themesflat-portfolio {
     margin-right: 0 !important;
-    width: 30rem !important;
+    flex-basis:  30% !important;
   }
   
   .section-portfolio .list-portfolio .themesflat-portfolio .boxitem:hover .imgbox img.light {
@@ -244,10 +281,16 @@
   .section-portfolio .list-portfolio .themesflat-portfolio:hover .boxitem .box-item-content .content-box {
     opacity: 1 !important;
   }
+  #card-contaner-grid{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
     
   /*#endregion section-portfolio*/
 
-  /*#region portfolio-details  */
+/*#region portfolio-details  */
 
 /* #carouselExampleIndicators .carousel-item {
   height: 60vh !important;
@@ -281,7 +324,8 @@
 
   /*#endregion section-portfolio*/
   
-  /*#region Footer*/
+/*#region Footer*/
+
   .footer .section-main-footer .list-footer {
     display: flex;
     flex-wrap: wrap;
@@ -296,7 +340,6 @@
     flex-basis: 1 !important;
   }
   
- 
-  
+
   /*#endregion Footer*/
-  
+
