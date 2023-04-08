@@ -2599,7 +2599,7 @@ p{
 
 
 .page-title {
-  background: url("../images/slider/slide-1.jpg") no-repeat;
+  background: url("../images/slider/1.png") no-repeat;
   background-size: cover;
   background-position: top center;
   margin-top: -150px;
@@ -3834,7 +3834,7 @@ p{
   line-height: 35px;
   text-align: center;
   z-index: 1;
-  right: 14px;
+  left:  14px;
   bottom: 23px;
   opacity: 0;
   visibility: hidden;
@@ -3844,7 +3844,7 @@ p{
 }
 
 #scroll-top.show {
-  right: 24px;
+  left: 24px;
   opacity: 1;
   visibility: visible;
   z-index: 9999;
