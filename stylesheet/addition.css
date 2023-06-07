@@ -35,7 +35,7 @@
   right: 2rem;
   bottom: 3rem; 
   z-index: 9999;
-  animation: up-and-down 2s infinite alternate;
+  animation: up-and-down 3s infinite alternate;
 }
 
 /*#endregion .main-header*/
@@ -158,18 +158,43 @@
     background: none !important;
     
   }
-  /*#endregion .section-about */
-  
-/*#region .section-about */
+
 
   .section-about .intro-content h3.title::before {
     width: 0px !important;
     height: 0px !important;
   }
+  .section-about .info-chooses p.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.75em;
+    padding-right: 75px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    color: #777777;
+   
+  }
+  
+  .section-about .info-chooses div.card{
+    box-shadow: 1px 1px 5px #777777;
+    transition: all 0.5s ease;
+    }
+  .section-about .info-chooses div.card:hover{
+    box-shadow: 1px 1px 10px #444;
+    }
+  .section-about .info-chooses p.card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    text-align: center;
+    }
   
   /*#endregion .section-about */
 
 /*#region .section-portfolio*/
+
   .section-portfolio .list-portfolio .themesflat-portfolio .boxitem .box-item-content .content-box:after {
     content: none;
     width: 0px !important;
@@ -270,17 +295,26 @@
     flex-basis:  30% !important;
   }
   
+  #portfoilo-home .list-portfolio .themesflat-portfolio .boxitem .imgbox img {
+    filter: grayscale(0.5);
+  }
+  #portfoilo-home .list-portfolio .themesflat-portfolio .boxitem:hover .imgbox img {
+    filter: grayscale(0);
+  }
   .section-portfolio .list-portfolio .themesflat-portfolio .boxitem:hover .imgbox img.light {
     opacity: 1;
+    filter: grayscale(0);
   }
   
   .section-portfolio .list-portfolio .themesflat-portfolio .boxitem .box-item-content .content-box {
-    opacity: 0 !important;
+    opacity: 1 !important;
+    cursor: pointer;
+  }
+  .section-portfolio .list-portfolio .themesflat-portfolio .boxitem .imgbox{
+    cursor: pointer;
   }
 
-  .section-portfolio .list-portfolio .themesflat-portfolio:hover .boxitem .box-item-content .content-box {
-    opacity: 1 !important;
-  }
+  
   #card-contaner-grid{
     display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
@@ -342,4 +376,29 @@
   
 
   /*#endregion Footer*/
+
+
+
+  /*#region Error*/
+  .error_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error_div p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.error_div p a{
+    color: #0446F1;
+
+}
+.error_div p a:hover{
+    color: #333;
+
+}
+  /*#endregion Error*/
 
